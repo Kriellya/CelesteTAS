@@ -1,5 +1,18 @@
 #Start from Begin
 
+# Category Goal
+# Collect as many 1-up's and as high a "score" as possible.
+# Accordingly, build a train with as many berries as possible and collect them all in one combo.
+
+# Berry rules
+# 9 consecutive grounded frames to collect
+# 8 grounded frames before next 9 frame window
+# Window to collect the next berry and maintain streak:
+#     150 timer frames, starting with the same frame the prior berry is collected.
+#     Window is lengthened by no-control frames.
+
+
+
 
 Read,StartFullGameFile
 
@@ -7,7 +20,10 @@ Read,0 - Prologue,Start
 
 Read,LoadANoCollects,Prologue
 
-Read,1SH0,Start
+# Last berry at 7765 frames.
+# Max collection time without loads: 2980 frames. Could start at ~ frame 4785. 
+
+Read,1SHM,Start
 
 #Reenter City
 Read,LoadA,0,control
