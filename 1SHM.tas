@@ -69,43 +69,43 @@ console load 1
 # Berry collected
 
 
+#Original, so I don't lose track of it
 #   1,R,J
 #   1,J
 #   2
-
-   1,R,J
-   1,R,J
-   1,R
-   1,R
-
-#   1,U,X
-#   1,R,J
-#   2,R
-
-#  12,R
-#   1,R,J
-#   1
-#  10,R,D,X
-   
-   9,R
-   1,J
-   1,R
-   1,R
-   
-  12,R,D,X
-
-#  10,R
-#   2,R,J
-#  12,R,D,X
-
 #  18,R
 #  10,R,D,X
+
+
+  
+
+   1,R,J
+   1,J
+   1
+  10,R
+   1,R,J
+   1,R
+   1,R
+  
+  12,R,D,X
+
+
 
    2,R,J
    4,R
    2,R,J
   11,R
    3
+
+#***
+
+#original  sequeencee
+#   2,R,J
+#   4,R
+#   2,R,J
+#  11,R
+#   3
+
   15,R,U,X
    2
    1,K

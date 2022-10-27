@@ -21,40 +21,12 @@ Read,0 - Prologue,Start
 Read,LoadANoCollects,Prologue
 
 # Last berry at 7765 frames.
-# Max collection time without loads: 2980 frames. Could start at ~ frame 4785. 
+# Max collection time without loads: 2980 frames. Could start at ~ frame 4785.
 
 Read,1SHM,Start
 
-#Reenter City
-Read,LoadA,0,control
-   1,L
-   9
-   1,J
-  43
-   1,J
-  30
-   1,R
-   1,J
-  46
-Add 1
-
-Read,1SH1,Start
-
-Add 58
-  51
-   1,S
-   1,J
-  30
-   1,R
-   1,F,90
-   1,J
-  46
-Add 1
-
-Read,1SH2,Start
-
 #Old Site
-Read,LoadAFromB,SkipExit
+Read,LoadA
 
 Read,2S,Start
 
