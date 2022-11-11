@@ -195,14 +195,13 @@ console load 1
 
 
 #lvl_5 (1)
-***
 
    
    1,R,D,X
    1,R,J
 #+1f Berry
 #***
-#Berry collected
+#Berry skipped, haven't saved the frame
   14,R,D,X
    1,J
   15,D,C
@@ -240,26 +239,22 @@ console load 1
    6,K,G
    1,R
    2
-  10,L,D,X
+  12,L,D,X
    1,L,J
    5,L
-  10,L,U,Z
-   1,R
-   1,J,G
-   4
-   3,L
+  14,L,U,Z
 #+1f Berry
 #***
-#Berry Collected
-  14,L,D,X
-   1,L,J
-   3,L
-  12,L,Z
+# Skipped berry, control frame saved? theres one less dash, so ends up being +2f on the timer :/
+   1,L,J,G
+  23,L
+   1
   40
 
 #lvl_5 (2)
-   3,L,Z
-  10,U,X
+   3,L,J
+  15,U,X
+   2
   24,R,J
    8,R,K,G
    1,J,G
@@ -366,7 +361,7 @@ console load 1
   23,D
   13,R,D
 
-#***
+***
 #Berry collected
 
   14,R,Z
@@ -1217,4 +1212,4 @@ Read,1SH2,lvl_10z,lvl_10zb
    1,S
    1,D,J
   18
-ChapterTime: 2:21.168(8304)
+ChapterTime: 2:21.253(8309)

@@ -22,6 +22,7 @@ Read,LoadANoCollects,Prologue
 
 # Last berry at 7765 frames.
 # Max collection time without loads: 2980 frames. Could start at ~ frame 4785.
+# There are approximately 2000 frames of screen transition. So we may be able to start even earlier, at around 3700
 
 Read,1SHM,Start
 
