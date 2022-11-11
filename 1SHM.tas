@@ -359,37 +359,17 @@ console load 1
    1,R,K,G
   11,R,D
   23,D
-***
   13,R,D
 
-#***
 #Berry collected
-
- 
+#***
+# Gonna loop back on this one
+# it looks like I may need to spend frames
 
   14,R,Z
-
-   1,R,Z
+   1,L,J
   15,R,X
-
-   1,R,J
-   1,R,J
-   3,R,J
-  15,R,D,X
-   
-   6,R,D
-#   9,R,D,X
-#   4,R,J
-#   5,R
-#  15,R,D,X
-#   4,R,J
-#   8,R
-
-   
-#   1,L,J
-#  15,R,X
-#  10,R,U,Z
-
+  10,R,U,Z
    1,L
    1,J
    9,K,G
@@ -398,18 +378,23 @@ console load 1
    1,R
    2,R,J
 #+2f berry
+# Skipped collection, saved 3 frames? restored from old commit.
+# Gonna have to check this later...
+# It looks like the commit is actually 3 frames faster? weird.
+#***
 
-   9,R,Z
+   5,R,Z
+   3,R,J
   40
 
 #lvl_6a
-   4,R,Z
-   5,R,J
-   1,R
+   6,R,J
+   5,R
    1,R,J
-   3,R
-  16,L,D
-   6,R,D
+   2,R
+  17,L,D
+   2,D
+   1,L,D
   18,R,D,X
    8,R,J
   10,U,X
@@ -434,6 +419,7 @@ console load 1
   11,L,J
    1,L
 #+1f Berry
+# These notations are driving me nuts
    7,L,Z
    1,L,J
    1,L
@@ -460,8 +446,8 @@ console load 1
   31,L,D
    9,D
 #+3f Berry
-#***
 #Berry collected
+
    7,R,D
   15,L,Z
   14,L,J
@@ -1235,4 +1221,4 @@ Read,1SH2,lvl_10z,lvl_10zb
    1,S
    1,D,J
   18
-ChapterTime: 2:21.253(8309)
+ChapterTime: 2:21.202(8306)
