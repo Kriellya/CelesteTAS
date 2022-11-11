@@ -1,8 +1,24 @@
 #Start from Begin
 
 # Category Goal
-# Collect as many 1-up's and as high a "score" as possible.
-# Accordingly, build a train with as many berries as possible and collect them all in one combo.
+# Collect as many 1-up's as possible.
+# Accordingly, gather all red berries and collect them all in one combo.
+
+# Questions
+# Golden Berries?
+#	Collect them?
+#		Collecting them adds a 1up to every stage except 6, but minimal extra complexity, as the berry doesn't follow normal collection rules.
+#		Getting a 1-up on core is also impossible without the golden berry.
+# 	Cheat mode to add the golden berries? 
+#		It would otherwise be all A-sides & B-sides, then ARB+Golden. Sounds needlessly long
+#		
+# Score?
+#	Are we just counting 1-ups, or are we also getting as many points as possible?
+#		May depend on golden berries. And cheat mode.
+#			With golden berries, we'd have to do every level for max score. 
+#			Without cheat mode, we have to do every level *twice*
+#			Otherwise, we only have to do A-sides.
+#		If no, and no golden berries, core and farewell have no 1-ups.
 
 # Berry rules
 # 9 consecutive grounded frames to collect
