@@ -536,11 +536,14 @@ console load 1
 
 #***
 #Berry collected
-   
+#1:02.237(3661)
+# I don't like this one... I think this is a little too early, all said.
+
    5,R
   14,R,J
 
   13,R,Z
+
    2,R,J
   19,R,D,X
   19,R,D,J
@@ -551,7 +554,8 @@ console load 1
 
 #lvl_s0 (1)
 #***
-#Berry Collecetd
+#Berry Collected
+#1:05.671(3863)
    1,R,J
    7,R
   14,D
@@ -895,6 +899,7 @@ Read,1SH2,lvl_10 (0),lvl_10 (1)
 
 #***
 #Berry collected
+#1:45.604(6212)
 # This collection can hopefully be incorporated, as it is well within our collections window.
 #lvl_10 (1)
 #+1f Berry
@@ -1093,8 +1098,36 @@ Read,1SH2,lvl_10z,lvl_10zb
    6,L,Z
    1,L,J
    6,L
+ 
+
+# Currently +26 frames, and messes up the next berry collection
+# really tempted to start working on this at the other end...
+# Like, move to a theoretical early point and start collecting from there.
+# ... yah I should probably do that. Won't have this issue of having to re-do later things.
+# That will get worse the longer it goes on.
+# every time I have to adjust the frame
+#   2,L,J
+#   1,L
+#  23,L,J
+#   7,L
+#   1
+#   3,L,D
+#   1,L,J
+#  13,L
+
+
+#   4,L
+#   1,J
+#   1,L,J
+#   4,J
+#   6,R,J
+#   1,K
+#   4,L,K
+#   3,K
+#  14,U,X
+
+
   13,L,J
-***
   15,L,D,X
    4,L
    3,L,D
@@ -1108,6 +1141,7 @@ Read,1SH2,lvl_10z,lvl_10zb
   40
 
 #lvl_12 (0)
+
    7,R,J
    1,J
    1,R,K,G
