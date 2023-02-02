@@ -94,79 +94,49 @@ console hard 6
    1,L
   14,U,Z
   27,L,U
-AnalogMode,Precise
-  42,F,3.199
-   1,F,3.25
-  11,F,303
-  11,F,243
-  53,F,196.7023
-   1,F,197.5835
-  11,F,257
-  11,F,317
-  35,F,10.39
-   1,F,5.31
-  36,F,351.177
-   1,F,353.281
-  11,F,53
-  15,F,96.52
-  23,R,X
-  20,R,C
-  15,R,U,X
-  14,U,C
+AnalogMode Precise
+  43,F,3.201
+   1,F,357.91
+  11,F,298
+  10,F,264.41
+   5,L,D,X
+  27,R,U
+   2,F,5.541
+StunPause,Input
+  16,F,5.541
+   1,F,9.493
+   3,F,45.776
+EndStunPause
+  27,F,45.776
+   1,F,43.67
+  14,F,10.5
+   1,F,0
   40
 
 #lvl_a-02
-  14,L,J
-  10,L,Z
-   1,L,J
-   1,L
-   2,L,J
-   1,J
-   1
-   1,L
-   1,J
-   1
-   6,D,X
-  25,L
-   9,L,D,X
-  14
-   2,L
-   1
-  15,U,X
-  13,L
-  22,R
-  13,U,X
-   1,J
-   1,K
-   1
-  27,L,D
-  20,F,176.979
-   1,F,175.57
-  17,F,128.513
-   1,F,126.912
-  11,F,84.48
-   1,F,82.725
-  11,F,77.062
-   1,F,73.512
-   4,F,50
-  17,F,24.918
-  27,F,28.646
-  14,U,X
+   1,F,0
+  43,F,3.339
+   1,F,3.766
+  10,F,39.7,0.69
+   7,R
+  15,U,Z
+   5,J
+  10,R,J
   40
 
 #lvl_a-03
-   1,R,J
-   9,R
-   1
-   6,R,D,X
+   2,R
+   1,R,J,G
+   1,R,K,G
+   7,R
+   5,R,Z
    1,R,J
   12,R
-  16,R,K
+  12,R,J
+   1,J
+   3,R,J
    5,R,D,X
-   1,R
-   1
-   1,R
-  30
+  33
    4,Z
    1,R,J
    1,R
@@ -185,17 +155,18 @@ AnalogMode,Precise
   11,R
   32,R,U,Z
    1
-AnalogMode,Square
+AnalogMode Square
   27,F,299.569
-AnalogMode,Precise
+AnalogMode Precise
    5,F,272.904
-  11,F,333
-  19,F,10.837
-   1,F,12.026
+   1,F,278.1
+  10,F,333
+  19,F,10.91
+   1,F,11.9
   11,F,72
   11,F,132
   21,F,139.367
-   1,F,138.002
+   1,F,138.2
   11,F,78
   10,F,42.179
   13,R,Z
@@ -292,6 +263,9 @@ AnalogMode,Precise
    2
    1,J,G
    2
+#a-06 spinner cycle
+   0
+#--------
    1,L
    4
    4,Z
@@ -334,117 +308,111 @@ AnalogMode,Precise
   22,L
    1,R
    1,L
-   7,U,G
-   1,G
+  18,G
    1,U,G
-  10,G
    1,J,G
    1,K,G
    2,J,G
    4
-   9,J,G
-  10,R,J
-   1,R,K,G
-  47,R,J,G
-   1,K,G
-   1,L,K
-  10,R,K
-  14,R,D
-   9,D
-   5,L,X
-   1,R,J,G
-  15
-   1,G
-   2
-   1,G
-   4
-   1,G
+   2,J,G
+  13
+  14,L,D
    3
-  18,L,G
-   1,K,G
-   1,R,K
-   1,L,K
-   1,J
-   1,K,G
-  14,J,G
-   1,R,J
-   1,K
-   2,J
-  18,L,X
-  47,L
-   1,J
-  42,L,J
-   2
-   3,R,D
-   1,J
-  23,L,J
-   1,K
-   6,J
-  25,R,J
-   3,J
-   9,K,G
-   4,L,K
-  40,K
-   1,J
-  50,R,J
-   2
-   1,K
-   8,J,G
-  12,L,J
-   1,K
-   5,L,K
-  13,L
-  17,R,D
-  22,R
-   1
-   1,D
-  26,G
-   1
-   1,J
-   2,K,G
-   1,L,K
-  18,R,K
-   5,J
-   1,K
-   8,R
-   2,K
-   4
-   5,L,X
-  12,L
-   1,R
-   1,L
-   1
-   1,L
-  16
-   2,D
-   1
-   1,R,D
-   1,D
-   6,R,D
-   1,R
-   1,L
-   2,L,D
-   1,D
-   1,R,D
-   1,D
-   3,L,J,G
-   1,K,G
+  15,L,Z
+   9,R,D
    1,L,J,G
-  15,R,J
-   9,J
-   6,K,G
-   1,J,G
-   6,R
-   1,L
+   2,K,G
+   1,R,K
+  21,L,K
+   1,K
+   3,G
+   1
    1,J
-   2,L,J
-   2,R,J
+  16,L,K,G
+   1,L,J,G
+   2,L,K,G
+   1,K
+   1,L,K
+   1,L
+  17,L,X
+   4,L,J,G
+   9,L
+   9,G
+   1
+   1,J
+   3,L,K,G
+   4
+   5,R
+   1
+   1,R,D
+   1,J
+   5
+   1,R
+   1
+   1,R
+   1,R,J
+   1,L,K,G
+   2,R,K
+   1,L,K
+   1,J,G
+   6,R,U,X
+StunPause,Input
+SkipInput,3,6
+  10,R,U,X
+   1,R,J,G
+EndStunpause
+   8,R,J
+   2,J
+   1,R,J
+   1,J
+  10,U,X
+   1,J
+   1,K
+  28,D
+  16,L,D
+   4,R,D
+   1,J
+   1,L,K,G
+   4,R,K
+   5,R
+  10,R,K
+  10,R
+   2,G
+   1,R,J,G
+   3,L,J
+   1,L,J
+   4,R,J
+   2
+   1,R
+   1
+   1,J
+   1,R
+   1,R,J
+   1,R
+   1,K,G
+   4,R
+   2
+   1,L
+   3,L,D
+   1,L,J
+   1,K,G
+   1,J,G
+   2,K,G
+   1,R,K
+   1,J
+   1,K,G
+   2,L,K
+   3,R,K
   15,U,Z
    1,J,G
    4,R
    1
    2,R
    7,R,Z
+#-----------------
+#+1f Spinner cycle
+   1,R,Z
+#-----------------
    2,R,J
   40
 
@@ -1103,33 +1071,28 @@ AnalogMode,Precise
   16,L,D
    2,D
   11,R,D
-  56,L,D
-  25,L,X
-  22,L,C
-   1
-   1,L
-   1
-   1,L
-   1
-  27,R,U
-   8,F,90
-  26,F,103.07
-   1,F,103.61
-   5,F,135
-   9,F,180
-   8,F,225
-  28,F,258.4
-   6,F,225
-   8,F,180
-  15,F,142.8
-  14,R,D,X
-   1,R,J
-  14,R,Z
-   3,R,J
-  13,R,U,Z
-   1,L,J,G
-   4,R,J
-  54,R
+  36,L
+  18
+#alternate cycle
+#would work if 1f is
+#saved earlier in the level
+#  12,D
+#StunPause,Input
+#   2,D
+#  17,R,D
+#EndStunPause
+#  15,R,Z
+#  23,R,D
+  13,D
+StunPause,Input
+   1,D
+  17,R,D
+SkipInput,3,1
+   5,R,Z
+EndStunPause
+  10,R,Z
+  23,R,D
+  44,R
   15,R,X
   14,R
    1
@@ -1172,31 +1135,24 @@ AnalogMode,Precise
    1,K,G
    1,J,G
   15,R,D,X
+  12,R,D
    1,R
    1,R,D
+   1,R
+   1
+   8,R
+   7,R,U,X
+StunPause
    4,R
-   1,R,D
-  12,R
-   3,R,D
-   2,R
-  18,R,U,X
-  20,R,C
-   9,L,D,X
-   9,L,J,G
-   2,L
-   3
-   1,L
-   2,J
-  12
-   1,R
-   4,L
-   1,L,D
-   1,J
-  10,K,G
-   1,R,K
+SkipInput,3
+   6,R
+   1,J,G
+EndStunPause
+   5,J,G
+  15,U,X
+  18,R,Z
   18,U,X
-  18,U,C
-  14,U,X
+  14,U,V
   40
 
 #lvl_d-01
@@ -1431,11 +1387,11 @@ AnalogMode,Precise
    4,F,60.621
   14,F,90
   21,F,121.2
-  19,F,86
+  12,F,89.5
+   7,F,30
 AnalogMode,Ignore
-   5,U,X
-  21,R
-  14,R,D,X
+  22,R,X
+  14,R,D,C
    4,R,J
   16,R,D,X
   44,L
@@ -1481,4 +1437,4 @@ AnalogMode,Ignore
   24,R,D,X
   21,R,D
  103,R
-ChapterTime: 3:26.091(12123)
+ChapterTime: 3:15.840(11520)

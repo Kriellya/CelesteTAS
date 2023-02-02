@@ -1,3 +1,4 @@
+#1:09:37.444
 #Start from Begin
 
 #Ensures variants postcard
@@ -53,13 +54,40 @@ Read,LoadA
 
 Read,4SHC,Start
 
-Read,LoadA
+#Reenter Ridge
+Read,LoadA,0,control
+   1,L
+   9
+   1,J
+  43
+   1,J
+  30
+   1,R
+   1,F,90
+   1,R
+   1,J
+  46
+
+Read,4SH1,Start
+
+Read,LoadAFromB,SkipExit
 
 Read,5SHC,Start
 
 Read,LoadA
 
-Read,6HC,Start
+Read,6HC,Start,Overworld
+
+Add 58
+  51
+   1,S
+   1,J
+  30
+   1,J
+  46
+Add 1
+
+Read,6HC,lvl_04 (3)
 
 Read,LoadANoCollects,0,Summit
 #Summit
@@ -69,7 +97,18 @@ Add 29
   32
 Add 1
 
-Read,7SHC,Start
+Read,7SHC,Start,Overworld
+
+Add 58
+  51
+   1,S
+   1,J
+  30
+   1,J
+  46
+Add 1
+
+Read,7SHC,lvl_f-00
 
 Read,LoadCoreFromSummit
 
@@ -103,7 +142,17 @@ Read,6B,Start
 
 Read,LoadB
 
-Read,7B,Start
+Read,7B,Start,Overworld
+
+Add 58
+   4
+   1,O
+  30
+   1,J
+  46
+Add 1
+
+Read,7B,2000M
 
 Read,LoadB,0,Core
    1,R

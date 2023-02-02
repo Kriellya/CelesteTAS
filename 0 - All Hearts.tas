@@ -1,3 +1,4 @@
+#38:36.318
 #Start from Begin
 
 #Ensures variants postcard
@@ -134,7 +135,17 @@ Read,7HC,Start,Exit
 
 Read,LoadBFromA,Exit
 
-Read,7B,Start
+Read,7B,Start,Overworld
+
+Add 58
+   4
+   1,O
+  30
+   1,J
+  46
+Add 1
+
+Read,7B,2000M
 
 Read,LoadAFromB,0,SkipExit
 
